@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+h2{
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+.variant{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+.block1{
+    background-color: aqua;
+    color: gray;
+    font-family: 'IBM Plex Mono', monospace; 
+    position: relative;
+}
+.block2{
+    background-color: chartreuse;
+    color: brown;
+    font-family: 'IBM Plex Mono', monospace;
+    position: relative;
+}
+.block3{
+    background-color: darkorange;
+    color: blueviolet;
+    font-family: 'IBM Plex Mono', monospace;
+    position: relative;
+}
+.block4{
+    background-color: lightcoral;
+    color: darkturquoise;
+    font-family: 'IBM Plex Mono', monospace;
+    position: relative;
+}
+h3 {
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    
+   }
+.hh1{
+    background-color: gray;
+    width: 150px;
+    color: white;
+}
+.hh2{
+    background-color: brown;
+    width: 150px;
+    color: white;
+}
+.hh3{
+    background-color: blueviolet;
+    width: 150px;
+    color: white;
+}
+.hh4{
+    background-color: darkturquoise;
+    width: 150px;
+    color: white;
+}
+table,td,th{
+ border: 3px solid blueviolet;
+ border-collapse: collapse;
+}
+.box {
+    width: 100%;
+   
+ }
+@media (max-width: 768px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+    } 
+    h3{
+        width: 50%;
+    }
+    .block1,.block2,.block3,.block4{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,
+    .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        flex:350px;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:15px;
+    }
+h3{
+    width: 30%;
+   
+
+}
+    .col-md-1 {
+        width: 8.33%;
+        }
+        .col-md-2 {
+        width: 16.66%;
+        }
+        .col-md-3 {
+        width: 25%;
+        }
+        .col-md-4 {
+        width: 33.33%;
+        }
+        .col-md-5 {
+        width: 41.66%;
+        }
+        .col-md-6 {
+        width: 50%;
+        }
+        .col-md-7 {
+        width: 58.33%;
+        }
+        .col-md-8 {
+        width: 66.66%;
+        }
+        .col-md-9 {
+        width: 75%;
+        
+        }
+        .col-md-10 {
+        width: 83.33%;
+        }
+        .col-md-11 {
+        width: 91.66%;
+        }
+        .col-md-12 {
+        width: 100%;
+        }
+    }
