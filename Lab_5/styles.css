@@ -297,6 +297,10 @@ img{
         div th{
             font-size: 110%;
         }
+        img{
+          width: 200px;
+          height: 200px;
+        }
     }
     .item-1{
         border: 1px solid black;
